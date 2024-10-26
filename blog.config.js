@@ -31,7 +31,7 @@ const BLOG = {
   socialLink: {
     twitter: '',
     github: 'https://github.com/JairoGuo',
-    telegram: ''
+    telegram: 'https://t.me/jairoguo'
   },
   seo: {
     keywords: ['Jairo', 'Blog'],
