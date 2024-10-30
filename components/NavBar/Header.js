@@ -173,11 +173,11 @@ const Header = ({ navBarTitle, fullWidth }) => {
         ref={navRef}
       >
         <div className='flex items-center'>
-          <Link passHref href='/' scroll={false} aria-label={BLOG.title}>
+          {/* <Link passHref href='/' scroll={false} aria-label={BLOG.title}>
             <motion.div>
               <Logo className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current' />
             </motion.div>
-          </Link>
+          </Link> */}
           {navBarTitle ? (
             <p
               className={`ml-2 font-medium ${
