@@ -11,9 +11,9 @@ const Page404 = ({ statusCode }) => {
     <div className='py-6 sm:py-8 lg:py-12'>
       <div className='max-w-screen-2xl px-4 md:px-8 mx-auto'>
         <div className='flex flex-col items-center'>
-          <div className='inline-flex items-center gap-2.5 mb-8'>
+          {/* <div className='inline-flex items-center gap-2.5 mb-8'>
             <Logo className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current' />
-          </div>
+          </div> */}
 
           <p className='text-sm md:text-base font-semibold uppercase mb-4'>
             {t.ERROR.MESSAGE}
